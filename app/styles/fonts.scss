@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant&family=Lato&display=swap');
+
+// Setting fonts for headings and paragraphs
+
+h1,h2,h3,h4,h5 {
+  font-family: "Abril Fatface";
+}
+
+p {
+  font-family: 'Lato';
+}
+
+// Desktop view, base px 18, multiplier of 1.333
+
+@media only screen and (min-width: 1201px) {
+  html {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 75.76px;
+  }
+  h2 {
+    font-size: 56.83px;
+  }
+  h3 {
+    font-size: 42.63px;
+  }
+  h4 {
+    font-size: 31.98px;
+  }
+  h5 {
+    font-size: 23.99px;
+  }
+  h6 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+// Mobile view, base px 16, multiplier of 1.25
+
+@media only screen and (min-width: 601px) and (max-width: 1201px) {
+  html {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 48.83px;
+  }
+  h2 {
+    font-size: 39.06px;
+  }
+  h3 {
+    font-size: 31.25px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  h6 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 16px;
+  }
+}
